@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import TestComponent from './Testcomponent'
 import FizzBuzz from './FizzBuzz'
 import Aboutme from './Aboutme'
+import LawnData from './LawnData'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,8 +32,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Aboutme />
-      <TestComponent count={count}/>
       <FizzBuzz count={count}/>
+      <LawnData />
     </>
   )
 }
